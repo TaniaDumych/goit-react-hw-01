@@ -1,0 +1,28 @@
+
+.friendList {
+    display: flex;
+flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+}
+.item {
+border: 3px solid #d87925;
+width: 100px;
+padding: 20px;
+background-color: #e7eabd;
+}
+.name {
+    font-weight: bold;
+}
+
+.online {
+    color: green;
+}
+
+.offline {
+    color: red;
+}
+
+

@@ -4,18 +4,15 @@
     gap: 10px;
 width: 500px;
     padding: 20px 0 0;
-    margin: 0 auto 50px
-    
+background-color: rgba(255, 255, 128, 0.5);
 }
-
 .avatar {
     border-radius: 50%;
     margin: 0 auto 15px;
     max-width: 200px;
     max-height: 200px;
-   background-color: #333;
+   background-color: #E6B3D6;
 }
-
 .name {
     font-size: 50px;
     font-weight: 500;
@@ -27,7 +24,7 @@ width: 500px;
 .location {
     font-size: 32px;
     margin: 0 0 5px;
-    color: #777;
+    color: #000;
 }
 
 .statsContainer {
@@ -35,12 +32,11 @@ width: 500px;
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 0;
-    border-top: 2px solid #777;
-    height: 175px;
+    border-top: 2px solid #E6B3D6;
+    height: 100px;
     padding: 0;
-
+    margin-bottom: 0;
 }
-
 .statsItem {
 flex: 1;
     display: flex;
@@ -49,11 +45,11 @@ flex: 1;
     justify-content: center;
     gap: 5px;
     
-    background-color: #bdbdbd;
+    background-color: #E6B3D6;
 }
 
 .statsItem:not(:last-child) {
-    border-right: 2px solid #777;
+    border-right: 2px solid #000;
 
 }
 
